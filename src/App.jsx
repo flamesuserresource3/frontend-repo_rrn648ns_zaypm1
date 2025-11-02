@@ -12,7 +12,7 @@ export default function App() {
       <WhyUs />
 
       {/* Footer */}
-      <footer className="border-t border-gray-100 bg-white">
+      <footer className="border-top border-gray-100 bg-white">
         <div className="mx-auto max-w-7xl px-6 py-12">
           <div className="grid gap-8 md:grid-cols-3">
             <div>
@@ -22,19 +22,19 @@ export default function App() {
               </p>
             </div>
             <nav className="grid grid-cols-2 gap-4 text-sm md:justify-items-center">
-              <a className="text-gray-700 hover:text-gray-900" href="#">Home</a>
-              <a className="text-gray-700 hover:text-gray-900" href="#services">Services</a>
-              <a className="text-gray-700 hover:text-gray-900" href="#">Portfolio</a>
-              <a className="text-gray-700 hover:text-gray-900" href="#">About Us</a>
-              <a className="text-gray-700 hover:text-gray-900" href="#contact">Contact Us</a>
-              <a className="text-gray-700 hover:text-gray-900" href="mailto:contact@netfyxitsolutions.com">contact@netfyxitsolutions.com</a>
+              <a className="text-gray-700 hover:text-emerald-600" href="#">Home</a>
+              <a className="text-gray-700 hover:text-emerald-600" href="#services">Services</a>
+              <a className="text-gray-700 hover:text-emerald-600" href="#">Portfolio</a>
+              <a className="text-gray-700 hover:text-emerald-600" href="#">About Us</a>
+              <a className="text-gray-700 hover:text-emerald-600" href="#contact">Contact Us</a>
+              <a className="text-gray-700 hover:text-emerald-600" href="mailto:contact@netfyxitsolutions.com">contact@netfyxitsolutions.com</a>
             </nav>
             <div className="md:text-right">
               <p className="text-sm text-gray-600">Follow us</p>
               <div className="mt-3 flex items-center gap-3 md:justify-end">
-                <a href="#" className="rounded-full border border-gray-200 p-2 text-gray-700 hover:bg-gray-50">X</a>
-                <a href="#" className="rounded-full border border-gray-200 p-2 text-gray-700 hover:bg-gray-50">LinkedIn</a>
-                <a href="#" className="rounded-full border border-gray-200 p-2 text-gray-700 hover:bg-gray-50">Dribbble</a>
+                <a href="#" className="rounded-full border border-gray-200 p-2 text-gray-700 transition-colors hover:border-emerald-300 hover:text-emerald-600">X</a>
+                <a href="#" className="rounded-full border border-gray-200 p-2 text-gray-700 transition-colors hover:border-emerald-300 hover:text-emerald-600">LinkedIn</a>
+                <a href="#" className="rounded-full border border-gray-200 p-2 text-gray-700 transition-colors hover:border-emerald-300 hover:text-emerald-600">Dribbble</a>
               </div>
             </div>
           </div>

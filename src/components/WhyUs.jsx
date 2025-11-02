@@ -35,14 +35,14 @@ export default function WhyUs() {
             <h3 className="text-lg font-semibold text-gray-800">Netfyx IT Solutions</h3>
             <ul className="mt-4 space-y-3 text-sm text-gray-700">
               {us.map((item) => (
-                <li key={item} className="rounded-lg bg-gradient-to-r from-blue-50 to-orange-50 px-4 py-2">{item}</li>
+                <li key={item} className="rounded-lg bg-gradient-to-r from-emerald-50 to-lime-50 px-4 py-2">{item}</li>
               ))}
             </ul>
           </div>
         </div>
 
         {/* CTA */}
-        <div id="contact" className="mx-auto mt-16 max-w-3xl rounded-2xl bg-gradient-to-r from-blue-600 to-orange-500 p-1 shadow-lg">
+        <div id="contact" className="mx-auto mt-16 max-w-3xl rounded-2xl bg-gradient-to-r from-emerald-600 to-lime-500 p-1 shadow-lg">
           <div className="rounded-2xl bg-white p-8 text-center">
             <h3 className="text-2xl font-bold text-gray-900">
               Ready to scale your brand to new heights?
@@ -52,7 +52,7 @@ export default function WhyUs() {
             </p>
             <a
               href="mailto:contact@netfyxitsolutions.com"
-              className="mt-6 inline-flex items-center justify-center rounded-full bg-gradient-to-r from-blue-600 to-orange-500 px-6 py-3 text-sm font-semibold text-white shadow-md"
+              className="mt-6 inline-flex items-center justify-center rounded-full bg-gradient-to-r from-emerald-600 to-lime-500 px-6 py-3 text-sm font-semibold text-white shadow-md"
             >
               Let's Talk
             </a>

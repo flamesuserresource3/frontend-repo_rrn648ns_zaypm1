@@ -37,8 +37,8 @@ export default function Services() {
   return (
     <section id="services" className="relative bg-white py-20">
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute left-10 top-10 h-24 w-24 rotate-12 rounded-xl bg-gradient-to-br from-blue-500/15 to-cyan-400/10 blur-xl" />
-        <div className="absolute right-10 bottom-10 h-28 w-28 -rotate-12 rounded-full bg-gradient-to-br from-orange-400/15 to-amber-300/10 blur-xl" />
+        <div className="absolute left-10 top-10 h-24 w-24 rotate-12 rounded-xl bg-gradient-to-br from-emerald-500/15 to-lime-400/10 blur-xl" />
+        <div className="absolute right-10 bottom-10 h-28 w-28 -rotate-12 rounded-full bg-gradient-to-br from-emerald-400/15 to-lime-300/10 blur-xl" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-6">
@@ -55,7 +55,7 @@ export default function Services() {
               key={title}
               className="group rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-shadow hover:shadow-lg"
             >
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 to-orange-500 text-white shadow-md shadow-blue-600/20">
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-600 to-lime-500 text-white shadow-md shadow-emerald-600/20">
                 <Icon className="h-6 w-6" />
               </div>
               <h3 className="mt-4 text-lg font-semibold text-gray-900">{title}</h3>
