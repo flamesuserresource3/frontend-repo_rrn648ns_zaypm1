@@ -8,18 +8,18 @@ export default function TrustedBy() {
   ];
 
   return (
-    <section className="bg-white py-14">
+    <section className="bg-neutral-950 py-14">
       <div className="mx-auto max-w-7xl px-6">
-        <p className="text-center text-sm font-medium uppercase tracking-wider text-gray-500">
+        <p className="text-center text-sm font-medium uppercase tracking-wider text-gray-400">
           Trusted by clients worldwide
         </p>
         <div className="mt-8 grid grid-cols-2 items-center gap-4 sm:grid-cols-3 md:grid-cols-5">
           {logos.map((logo) => (
             <div
               key={logo.name}
-              className="flex h-16 items-center justify-center rounded-xl border border-gray-100 bg-white shadow-sm"
+              className="flex h-16 items-center justify-center rounded-xl border border-white/10 bg-neutral-900 shadow-sm"
             >
-              <span className="text-base font-semibold tracking-wide text-gray-600">
+              <span className="text-base font-semibold tracking-wide text-gray-200">
                 {logo.name}
               </span>
             </div>

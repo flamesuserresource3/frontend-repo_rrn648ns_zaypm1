@@ -15,27 +15,27 @@ export default function WhyUs() {
   ];
 
   return (
-    <section className="bg-gradient-to-b from-gray-50 to-white py-20">
+    <section className="bg-gradient-to-b from-black to-neutral-950 py-20">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">Why choose us</h2>
-          <p className="mt-3 text-gray-600">A clear difference where it matters most.</p>
+          <h2 className="text-3xl font-extrabold text-white sm:text-4xl">Why choose us</h2>
+          <p className="mt-3 text-gray-300">A clear difference where it matters most.</p>
         </div>
 
         <div className="mt-12 grid gap-6 md:grid-cols-2">
-          <div className="rounded-2xl border border-gray-100 bg-white p-6 shadow-sm">
-            <h3 className="text-lg font-semibold text-gray-800">Other Agencies</h3>
-            <ul className="mt-4 space-y-3 text-sm text-gray-600">
+          <div className="rounded-2xl border border-white/10 bg-neutral-900 p-6 shadow-sm">
+            <h3 className="text-lg font-semibold text-gray-100">Other Agencies</h3>
+            <ul className="mt-4 space-y-3 text-sm text-gray-300">
               {other.map((item) => (
-                <li key={item} className="rounded-lg bg-gray-50 px-4 py-2">{item}</li>
+                <li key={item} className="rounded-lg bg-neutral-800/80 px-4 py-2">{item}</li>
               ))}
             </ul>
           </div>
-          <div className="rounded-2xl border border-gray-100 bg-white p-6 shadow-sm">
-            <h3 className="text-lg font-semibold text-gray-800">Netfyx IT Solutions</h3>
-            <ul className="mt-4 space-y-3 text-sm text-gray-700">
+          <div className="rounded-2xl border border-white/10 bg-neutral-900 p-6 shadow-sm">
+            <h3 className="text-lg font-semibold text-gray-100">Netfyx IT Solutions</h3>
+            <ul className="mt-4 space-y-3 text-sm text-gray-200">
               {us.map((item) => (
-                <li key={item} className="rounded-lg bg-gradient-to-r from-emerald-50 to-lime-50 px-4 py-2">{item}</li>
+                <li key={item} className="rounded-lg bg-gradient-to-r from-emerald-900/40 to-lime-800/30 px-4 py-2 ring-1 ring-emerald-500/20">{item}</li>
               ))}
             </ul>
           </div>
@@ -43,11 +43,11 @@ export default function WhyUs() {
 
         {/* CTA */}
         <div id="contact" className="mx-auto mt-16 max-w-3xl rounded-2xl bg-gradient-to-r from-emerald-600 to-lime-500 p-1 shadow-lg">
-          <div className="rounded-2xl bg-white p-8 text-center">
-            <h3 className="text-2xl font-bold text-gray-900">
+          <div className="rounded-2xl bg-neutral-950 p-8 text-center">
+            <h3 className="text-2xl font-bold text-white">
               Ready to scale your brand to new heights?
             </h3>
-            <p className="mt-2 text-gray-600">
+            <p className="mt-2 text-gray-300">
               Let's talk about your goals and map the fastest path to impact.
             </p>
             <a

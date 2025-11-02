@@ -35,7 +35,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="relative bg-white py-20">
+    <section id="services" className="relative bg-neutral-950 py-20">
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute left-10 top-10 h-24 w-24 rotate-12 rounded-xl bg-gradient-to-br from-emerald-500/15 to-lime-400/10 blur-xl" />
         <div className="absolute right-10 bottom-10 h-28 w-28 -rotate-12 rounded-full bg-gradient-to-br from-emerald-400/15 to-lime-300/10 blur-xl" />
@@ -43,8 +43,8 @@ export default function Services() {
 
       <div className="relative mx-auto max-w-7xl px-6">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">About & Services</h2>
-          <p className="mt-3 text-gray-600">
+          <h2 className="text-3xl font-extrabold text-white sm:text-4xl">About & Services</h2>
+          <p className="mt-3 text-gray-300">
             Netfyx IT Solutions crafts future-ready digital products for startups and enterprises. From strategy to launch, we partner end-to-end.
           </p>
         </div>
@@ -53,13 +53,13 @@ export default function Services() {
           {services.map(({ title, icon: Icon, desc }) => (
             <div
               key={title}
-              className="group rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-shadow hover:shadow-lg"
+              className="group rounded-2xl border border-white/10 bg-neutral-900 p-6 shadow-sm transition-shadow hover:shadow-emerald-500/10"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-600 to-lime-500 text-white shadow-md shadow-emerald-600/20">
                 <Icon className="h-6 w-6" />
               </div>
-              <h3 className="mt-4 text-lg font-semibold text-gray-900">{title}</h3>
-              <p className="mt-2 text-sm text-gray-600">{desc}</p>
+              <h3 className="mt-4 text-lg font-semibold text-white">{title}</h3>
+              <p className="mt-2 text-sm text-gray-300">{desc}</p>
             </div>
           ))}
         </div>
